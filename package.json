@@ -2,10 +2,12 @@
   "name": "cenmaa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+
+    "build": "parcel build index.html --out-dir build"
   },
   "keywords": [],
   "author": "",
